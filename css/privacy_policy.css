@@ -1,0 +1,22 @@
+#title {
+  text-align: center;
+  position: relative;
+}
+
+#title .container-fluid {
+  padding: 15%;
+}
+
+#body ul {
+  list-style-position: outside;
+}
+
+#body li {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.sub-list {
+  list-style-type: circle;
+  list-style-position: outside;
+}

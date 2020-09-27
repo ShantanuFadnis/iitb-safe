@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="48.896" height="38.448" viewBox="0 0 48.896 38.448">
+  <defs>
+    <radialGradient id="radial-gradient" cx="0.5" cy="0.5" r="0.785" gradientTransform="translate(0.148) scale(0.705 1)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#0b39fa"/>
+      <stop offset="1" stop-color="#001cae"/>
+    </radialGradient>
+  </defs>
+  <g id="LOGO_SVG" data-name="LOGO SVG" transform="translate(-165 -38.247)">
+    <g id="logo_svg-2" data-name="logo svg" transform="translate(158.3 26.222)">
+      <path id="Path_629" data-name="Path 629" d="M7.891,24.362,30.562,12.236a1.911,1.911,0,0,1,1.748,0L54.982,24.362a.768.768,0,0,1,.169,1.241L31.465,45.793,7.778,25.659A.792.792,0,0,1,7.891,24.362Z" transform="translate(-0.345)" fill="url(#radial-gradient)"/>
+      <path id="Path_630" data-name="Path 630" d="M50.921,33.932l-4.061,3.609L42.8,33.932,46.861,26.6Z" transform="translate(-15.741 -6.355)" fill="#486fff"/>
+      <path id="Path_631" data-name="Path 631" d="M52.149,49.357V62.5H33.2V49.357L38.614,39.6l4.061,3.609L46.735,39.6Z" transform="translate(-11.555 -12.024)" fill="#fff"/>
+      <path id="Path_632" data-name="Path 632" d="M55.6,35.259c0,.451-.056,23.517-.056,23.517,0,.056,0,1.41-2.312,1.41H9.069c-2.369,0-2.369-1.41-2.369-1.41V35.259c0-.959.79-.959.79-.959L21.7,47.046l5.64,5.076,3.779,3.384,3.722-3.327,5.64-5.076L54.75,34.356A.847.847,0,0,1,55.6,35.259Z" transform="translate(0 -9.713)" fill="#0b39fa"/>
+      <path id="Path_633" data-name="Path 633" d="M62.24,57V70.084H56.6V62.019Z" transform="translate(-21.758 -19.611)" fill="#486fff"/>
+      <path id="Path_634" data-name="Path 634" d="M38.94,61.976V70.04H33.3V56.9Z" transform="translate(-11.598 -19.567)" fill="#486fff"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,285 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  color: #323648;
+  overflow-x: hidden;
+}
+
+/* colors */
+.white-section {
+  background-color: #FFF;
+}
+
+.blue-section {
+  background-color: #002182;
+  color: #FFF !important;
+}
+
+h4 {
+  font-family: "Quicksand", sans-serif;
+  font-weight: 600;
+  font-size: 1.125rem;
+  margin-bottom: 10px;
+}
+
+.white-section-highlight-text {
+  color: #707070;
+}
+
+.blue-section-highlight-text {
+  color: #FFF;
+}
+
+.useful-link-white {
+  color: #707070;
+}
+
+.useful-link-white:hover {
+  color: #0000FF;
+}
+
+/* text */
+p, li {
+  font-family: "Quicksand", sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+  margin: 0;
+  padding: 0;
+}
+
+/* containers */
+.container-fluid {
+  padding: 9.25% 15%;
+}
+
+.gap-80 {
+  height: 80px;
+}
+
+.gap-90 {
+  height: 90px;
+}
+
+.divider {
+  margin: 20px 0 80px 0;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.sub-divider {
+  margin: 20px 0 40px 0;
+  display: block;
+}
+
+/* Navigation Bar Section */
+#navigation_bar {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1;
+}
+
+.navbar {
+  margin: 0;
+  padding: 20px 15%;
+}
+
+#navigation_bar ul {
+  text-align: right;
+}
+
+#navigation_bar li {
+  padding-top: 10px;
+}
+
+@media screen and (min-width: 992px) {
+  .nav-item {
+    padding: 0 0 0 37px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .nav-item {
+    padding: 0 0 0 55px;
+  }
+}
+
+.nav-link {
+  font-family: "Quicksand", sans-serif;
+  font-size: 1.125rem;
+  color: #323648 !important;
+  font-weight: 500;
+}
+
+.nav-link:hover {
+  background-color: #323648;
+  color: #FFF !important;
+}
+
+.active {
+  color: #0000FF !important;
+}
+
+.circle {
+  position: absolute;
+  top: 6%;
+  left: 15%;
+  width: 20%;
+  max-width: 200px;
+}
+
+.square1 {
+  position: absolute;
+  top: 0;
+  right: -10%;
+  width: 25%;
+  max-width: 420px;
+}
+
+.square2 {
+  position: absolute;
+  right: 10%;
+  bottom: -10%;
+  width: 25%;
+  max-width: 196px;
+}
+
+.rectangle {
+  position: absolute;
+  bottom: -20%;
+  left: -10%;
+  width: 50%;
+  max-width: 530px;
+}
+
+/* Footer Section */
+#footer li {
+  margin-bottom: 10px;
+}
+
+.footer-logo {
+  padding-bottom: 40px;
+}
+
+.footer-text {
+  font-weight: 400;
+  font-size: 0.875rem;
+  color: #FFF;
+}
+
+.footer-heading {
+  font-size: 1.125rem !important;
+  font-weight: 600 !important;
+  padding-bottom: 20px;
+}
+
+.footer-link {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #FFF !important;
+}
+
+.footer-link-sm {
+  font-size: 0.875rem;
+  font-weight: 400;
+  color: #FFF !important;
+}
+
+.copyright {
+  padding-top: 20px;
+}
+
+.credits {
+  font-weight: 600;
+  font-size: 1.125rem;
+  padding-bottom: 20px;
+}
+
+@media screen and (max-width: 991px) {
+  .col {
+    padding-bottom: 20px;
+  }
+}
+
+/* headings */
+/* for extra large screen */
+@media screen and (min-width: 1200px) {
+  h1 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 4.375rem;
+  }
+
+  h2 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 3rem;
+  }
+
+  h3 {
+    font-family: "Quicksand", sans-serif;
+    font-weight: 600;
+    font-size: 2.25rem;
+  }
+
+  h5 {
+    font-family: "Quicksand", sans-serif;
+    font-weight: 600;
+    font-size: 1.125rem;
+  }
+}
+
+/* for large, medium and small screen */
+@media screen and (min-width: 576px) and (max-width: 1199px) {
+  h1 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 3.75rem;
+  }
+
+  h2 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 3rem;
+  }
+
+  h3 {
+    font-family: "Quicksand", sans-serif;
+    font-weight: 600;
+    font-size: 2.25rem;
+  }
+
+  h5 {
+    font-family: "Quicksand", sans-serif;
+    font-weight: 600;
+    font-size: 1.125rem;
+  }
+}
+
+/* for xs screen */
+@media screen and (max-width: 575px) {
+  h1 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 3rem;
+  }
+
+  h2 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 2.25rem;
+  }
+
+  h3 {
+    font-family: "Quicksand", sans-serif;
+    font-weight: 600;
+    font-size: 1.5rem;
+  }
+
+  h5 {
+    font-family: "Quicksand", sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+  }
+}
