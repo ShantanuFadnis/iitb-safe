@@ -56,9 +56,9 @@
   text-decoration: none;
 }
 
-@media screen and (min-width: 1899px) {
+@media screen and (min-width: 1200px) {
   #title .container-fluid {
-    padding: 11% 15% 22% 15%;
+    padding: 12% 15% 20% 15%;
   }
 }
 
