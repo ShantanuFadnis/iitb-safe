@@ -47,9 +47,18 @@
   font-size: 1rem;
 }
 
+.blog-link:hover {
+  color: #FF4423;
+}
+
 .blog-link svg {
   fill: #0B39FA;
   width: 15px;
+  margin-left: 20px;
+}
+
+.blog-link svg:hover {
+  fill: #FF4423;
 }
 
 .blog-link:hover {
