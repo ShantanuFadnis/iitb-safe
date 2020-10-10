@@ -4,14 +4,16 @@
 }
 
 #title .container-fluid {
-  padding: 19% 15%;
+  padding: 15% 15%;
 }
 
 #body ul {
-  list-style-position: outside;
+  margin: 0;
+  padding: 0;
 }
 
 #body li {
+  list-style-position: inside;
   padding-top: 10px;
   padding-bottom: 10px;
 }

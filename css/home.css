@@ -55,6 +55,10 @@
   width: 80%;
 }
 
+.use-case-text {
+  color: #707070 !important;
+}
+
 @media screen and (max-width: 991px) {
   .pad-40 {
     padding-top: 100px;
@@ -94,9 +98,9 @@
 #testimonials .carousel-inner {
   padding-top: 80px;
   background-color: rgba(232, 241, 255, 0.2);
-  box-shadow: 2px 3px 8px #EFEFEF;
-  -webkit-box-shadow: 2px 3px 8px #EFEFEF;
-  -moz-box-shadow: 2px 3px 8px #EFEFEF;
+  box-shadow: 0 0 8px 2px #EFEFEF;
+  -webkit-box-shadow: 0 0 8px 2px #EFEFEF;
+  -moz-box-shadow: 0 0 8px 2px #EFEFEF;
   border-radius: 10px;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
@@ -179,7 +183,7 @@
   }
 
   #title .container-fluid {
-    padding: 9.25% 15% 18.5% 15%;
+    padding: 5% 15% 15% 15%;
   }
 
   #steps_row {

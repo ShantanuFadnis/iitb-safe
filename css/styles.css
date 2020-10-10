@@ -31,7 +31,8 @@ h4 {
 }
 
 .useful-link-white {
-  color: #707070;
+  color: #0000FF;
+  text-decoration: underline;
 }
 
 .useful-link-white:hover {
@@ -113,8 +114,7 @@ p, li {
 }
 
 .nav-link:hover {
-  background-color: #323648;
-  color: #FFF !important;
+  text-decoration: underline;
 }
 
 .active {

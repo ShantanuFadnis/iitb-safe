@@ -4,16 +4,20 @@
 }
 
 #title .container-fluid {
-  padding: 20% 15%;
+  padding: 15% 15%;
 }
 
 #body ul {
-  list-style-position: outside;
+  margin: 0;
+  padding: 0;
 }
 
-#body li {
-  padding-top: 10px;
-  padding-bottom: 10px;
+#body ul li {
+  list-style-position: inside;
+  text-align: left;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  color: #707070 !important;
 }
 
 .sub-list {
