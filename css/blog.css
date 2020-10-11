@@ -1,17 +1,11 @@
-#title {
-  position: relative;
+.blog-main-heading-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .blog-main-heading {
   font-size: 60px !important;
-  margin-top: 40px;
-  margin-bottom: 40px;
-}
-
-.blog-hero {
-  max-width: 650px;
-  position: absolute;
-  /* top: 20px; */
 }
 
 #blog {
@@ -70,7 +64,7 @@
 
 @media screen and (min-width: 1200px) {
   #title .container-fluid {
-    padding: 8% 15% 12% 15%;
+    padding: 5% 15% 5% 15%;
   }
 }
 

@@ -210,7 +210,7 @@
   }
 
   #steps-img {
-    content: url(../images/steps_lg.svg) !important;
+    content: url(../images/steps_xl.svg) !important;
   }
 
   #steps_row {
@@ -251,11 +251,11 @@
   }
 
   #steps-img {
-    content: url(../images/steps_md.svg) !important;
+    display: none;
   }
 
   #steps_row {
-    display: none;
+    display: inline;
   }
 
   .q-right {
